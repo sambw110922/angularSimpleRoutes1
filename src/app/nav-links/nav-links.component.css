@@ -1,0 +1,22 @@
+
+nav div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+nav h2 {
+    font-size: 2em;
+}
+
+nav a {
+    padding: 2%;
+    color: blue;
+}
+
+nav a:hover {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
